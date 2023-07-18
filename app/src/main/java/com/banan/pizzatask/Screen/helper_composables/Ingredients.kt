@@ -17,7 +17,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Color.Companion.Green
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.banan.pizzatask.R
@@ -45,7 +44,7 @@ private fun Ingredients(modifier: Modifier = Modifier) {
 
             Box(
                 modifier = Modifier
-                    .size(70.dp)
+                    .size(56.dp)
                     .clip(CircleShape)
                     .background(if (isSelected) ingredientsBackground else Color.Transparent)
                     .clickable {
